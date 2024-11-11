@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acc35c96-3aa3-4cdc-bdc8-9d61d66a9b62" name="Changes" comment="graded homework submission as of Tuesday night">
+    <list default="true" id="acc35c96-3aa3-4cdc-bdc8-9d61d66a9b62" name="Changes" comment="added hidden lyrics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/C2_HiddenWordHardMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/C2_HiddenWordHardMode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,20 +44,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.A_NameFinder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.B_HashtagExtractor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.C1_HiddenWordFinder.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.A_NameFinder.executor": "Run",
+    "Application.B_HashtagExtractor.executor": "Run",
+    "Application.C1_HiddenWordFinder.executor": "Run",
+    "Application.C2_HiddenWordHardMode.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.C1_HiddenWordFinder">
+}]]></component>
+  <component name="RunManager" selected="Application.C2_HiddenWordHardMode">
     <configuration name="A_NameFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A_NameFinder" />
       <module name="HWOct30" />
@@ -78,8 +80,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C2_HiddenWordHardMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C2_HiddenWordHardMode" />
+      <module name="HWOct30" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C2_HiddenWordHardMode" />
         <item itemvalue="Application.C1_HiddenWordFinder" />
         <item itemvalue="Application.B_HashtagExtractor" />
         <item itemvalue="Application.A_NameFinder" />
@@ -103,11 +113,20 @@
       <option name="project" value="LOCAL" />
       <updated>1730866528246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added hidden lyrics">
+      <option name="closed" value="true" />
+      <created>1730902252019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730902252019</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="graded homework submission as of Tuesday night" />
-    <option name="LAST_COMMIT_MESSAGE" value="graded homework submission as of Tuesday night" />
+    <MESSAGE value="added hidden lyrics" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hidden lyrics" />
   </component>
 </project>

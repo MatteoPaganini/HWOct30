@@ -13,6 +13,8 @@ import java.util.Scanner;
 
 public class C2_HiddenWordHardMode {
 
+    private String text = "";
+
     public static void main(String[] args) {
         C2_HiddenWordHardMode c = new C2_HiddenWordHardMode();
     }
@@ -29,10 +31,20 @@ public class C2_HiddenWordHardMode {
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
+                int startIndex = (line.indexOf("*")+1);
+                int endIndex = line.indexOf("~");
+
+                if (startIndex > 0) {
+                    String hiddenWord = line.substring(startIndex,endIndex);
+                    System.out.print(hiddenWord + " ");
+                }
+
                 /* TODO: your code goes here */
 
             }
             scanner.close();
+            System.out.println("Song is called American Requiem");
+
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred: " + e.getMessage());
         }
